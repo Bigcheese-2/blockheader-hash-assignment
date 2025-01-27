@@ -33,7 +33,7 @@ function createBlockHash(transactions) {
   return hashes[0]; // Final single hash
 }
 
-// Test cases
+// Test
 console.log('Single Hash:', createHash('hello')); // Hash one value
 console.log('Two Values Hash:', createHash('hello', 'world')); // Hash two values
 
